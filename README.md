@@ -16,5 +16,6 @@ Chess Game Simulator is a web-based application built with PHP that allows users
 
 - HTML
 - CSS
-- PHP
 - JavaScript
+- PHP
+
