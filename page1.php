@@ -6,28 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chess Game Simulator</title>
     <style>
-          body {
+         body {
             display: flex;
             flex-direction: column;
             min-height: 100vh; 
             margin: 0;
             text-align: center; 
-            background-color: white; 
+            background-color: #ffffff; 
         }
         h1 {
-            background-color: gray; 
+            margin: 0;
+            background-color: #7f7f7f; 
         }
         h2, form, footer {
             text-align: center;
         }
         input[type=submit] {
-            background-color: #D3D3D3;
+            background-color: #cccccc;
             border-radius: 6px; 
             font-size: 12px;
             cursor: pointer; 
         }
         input[type=submit]:hover {
-            background-color: #C0C0C0; 
+            background-color: #b2b2b2; 
         }
         footer {
             margin-top: auto; 
@@ -40,8 +41,8 @@
             playerInputsContainer.innerHTML = ""; // Clear previous inputs
 
             for (let i = 1; i <= numberOfPlayers; i++) {
-                playerInputsContainer.innerHTML += `
-                    <label for="player${i}">Player ${i} Name:</label>
+                playerInputsContainer.innerHTML += 
+                    `<label for="player${i}">Player ${i} Name:</label>
                     <input type="text" name="players[]" id="player${i}" required>
                     <br><br>`;
             }
