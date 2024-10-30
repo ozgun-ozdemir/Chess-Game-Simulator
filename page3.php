@@ -48,7 +48,7 @@ $finalWinner = end($allMatches)[1];
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chess Game Simulator</title>
     <style> 
-      body {
+        body {
             display: flex;
             flex-direction: column;
             min-height: 100vh; 
