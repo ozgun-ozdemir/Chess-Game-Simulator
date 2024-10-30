@@ -23,12 +23,13 @@
         }
         input[type=submit] {
             background-color: #cccccc;
-            border-radius: 6px; 
             font-size: 12px;
             cursor: pointer; 
+            border: none;
         }
         input[type=submit]:hover {
             background-color: #b2b2b2; 
+            
         }
         footer {
             margin-top: auto; 
